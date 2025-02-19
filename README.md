@@ -1,15 +1,15 @@
-# Task Manager Web App (Java)
+# Task Manager Web App (Java + Spring Boot)
 
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1-green)
 
-A task management web application built with Java and Spring Boot.
+A RESTful task management application with user authentication and database integration.
 
 ## Features
-- Create, edit, and delete tasks
-- User authentication
-- RESTful API endpoints
-- Database integration (MySQL/PostgreSQL)
+- Create, update, and delete tasks
+- User registration/login (JWT authentication)
+- MySQL/PostgreSQL database support
+- API documentation via Swagger
 
 ## Prerequisites
 - Java 17+
@@ -19,4 +19,4 @@ A task management web application built with Java and Spring Boot.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CelestialVisionary/portfolio-site.git
+   git clone https://github.com/CelestialVisionary/task-manager-java.git
